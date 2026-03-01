@@ -1,0 +1,42 @@
+# Core dependencies
+openai>=1.10.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Async support
+aiohttp>=3.9.0
+
+# API framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Tools
+tavily-python>=0.3.0
+requests>=2.31.0
+
+# Utilities
+tenacity>=8.2.0          # Retry logic
+tiktoken>=0.5.0          # Token counting
+structlog>=24.1.0        # Structured logging
+
+# Knowledge Base / Semantic Layer
+faiss-cpu>=1.7.4           # Vector similarity search
+sentence-transformers>=2.2.0  # Embeddings
+pypdf>=3.17.0              # PDF parsing
+python-docx>=1.1.0         # Word document parsing
+openpyxl>=3.1.0            # Excel file parsing
+pandas>=2.0.0              # CSV/data handling
+numpy>=1.24.0              # Numerical operations
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.12.0
+pytest-cov>=4.1.0
+httpx>=0.26.0            # Async HTTP for testing
+
+# Development
+black>=23.12.0           # Code formatting
+flake8>=7.0.0            # Linting
+mypy>=1.8.0              # Type checking

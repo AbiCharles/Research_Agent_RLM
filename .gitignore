@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.*
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test / Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Claude
+.claude/
+
+# Large files
+*.pdf
